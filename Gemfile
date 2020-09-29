@@ -11,7 +11,7 @@ gem 'puma', '~> 3.7'
 gem 'faraday'
 gem 'faraday_middleware'
 gem 'pg'
-
+gem 'yard'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

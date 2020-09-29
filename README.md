@@ -27,3 +27,4 @@ More info about the tools and libraries used in this app:
 - [Faraday - HTTP Client](https://github.com/lostisland/faraday)
 - [VCR - Testing HTTP Requests](https://github.com/vcr/vcr)
 - [dotenv rails - storing env vars](https://github.com/bkeepers/dotenv)
+- [Yard - Documentation Generation](https://github.com/lsegal/yard)
