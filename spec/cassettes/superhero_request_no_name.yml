@@ -1,0 +1,123 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://superheroapi.com/api/192450955735533/search/polly_pocket
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Content-Encoding:
+      - gzip
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Tue, 29 Sep 2020 06:39:19 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=da0ee24e32399c6563755d83b1d49205e1601361559; expires=Thu, 29-Oct-20
+        06:39:19 GMT; path=/; domain=.superheroapi.com; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, max-age=0
+      Location:
+      - https://www.superheroapi.com/api.php/192450955735533/search/polly_pocket
+      X-Turbo-Charged-By:
+      - LiteSpeed
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - 057a2f59110000fef2af98c200000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=162&lkg-time=1601361560"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5da3b4d4eaccfef2-IAH
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head>\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" >\n<title>
+        302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal
+        14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div
+        style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center;
+        width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n
+        \       <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2
+        style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document
+        has been temporarily moved.</p>\n</div></div></body></html>\n"
+  recorded_at: Tue, 29 Sep 2020 06:39:19 GMT
+- request:
+    method: get
+    uri: https://www.superheroapi.com/api.php/192450955735533/search/polly_pocket
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Content-Encoding:
+      - gzip
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Sep 2020 06:39:20 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d05d9b789fb6908a06f4071862d702a681601361560; expires=Thu, 29-Oct-20
+        06:39:20 GMT; path=/; domain=.superheroapi.com; HttpOnly; SameSite=Lax
+      X-Powered-By:
+      - PHP/7.2.32
+      X-Turbo-Charged-By:
+      - LiteSpeed
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - 057a2f59d00000b3ac5420e200000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=162&lkg-time=1601361560"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5da3b4d61b66b3ac-IAH
+    body:
+      encoding: ASCII-8BIT
+      string: '{"response":"error","error":"character with given name not found"}'
+  recorded_at: Tue, 29 Sep 2020 06:39:20 GMT
+recorded_with: VCR 6.0.0

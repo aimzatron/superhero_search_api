@@ -1,0 +1,152 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://superheroapi.com/api/192450955735533/search/captain_marvel
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Content-Encoding:
+      - gzip
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Tue, 29 Sep 2020 06:39:19 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d6977dd7485caa5be667de596193255741601361559; expires=Thu, 29-Oct-20
+        06:39:19 GMT; path=/; domain=.superheroapi.com; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, max-age=0
+      Location:
+      - https://www.superheroapi.com/api.php/192450955735533/search/captain_marvel
+      X-Turbo-Charged-By:
+      - LiteSpeed
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - 057a2f56980000feeebba93200000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=162&lkg-time=1601361559"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5da3b4d0fae4feee-IAH
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head>\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" >\n<title>
+        302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal
+        14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div
+        style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center;
+        width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n
+        \       <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2
+        style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document
+        has been temporarily moved.</p>\n</div></div></body></html>\n"
+  recorded_at: Tue, 29 Sep 2020 06:39:19 GMT
+- request:
+    method: get
+    uri: https://www.superheroapi.com/api.php/192450955735533/search/captain_marvel
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Content-Encoding:
+      - gzip
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Sep 2020 06:39:19 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7d61ae39b8aec286f7d1854e483636131601361559; expires=Thu, 29-Oct-20
+        06:39:19 GMT; path=/; domain=.superheroapi.com; HttpOnly; SameSite=Lax
+      X-Powered-By:
+      - PHP/7.2.32
+      X-Turbo-Charged-By:
+      - LiteSpeed
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - 057a2f57ca0000feaecb90c200000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=162&lkg-time=1601361560"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5da3b4d2ddf6feae-IAH
+    body:
+      encoding: ASCII-8BIT
+      string: '{"response":"success","results-for":"captain_marvel","results":[{"id":"156","name":"Captain
+        Marvel","powerstats":{"intelligence":"88","strength":"100","speed":"88","durability":"95","power":"100","combat":"75"},"biography":{"full-name":"Billy
+        Batson","alter-egos":"No alter egos found.","aliases":["The World''s Mightiest
+        Mortal","The Big Red Cheese","Captain Thunder","Shazam"],"place-of-birth":"Fawcett
+        City, United States","first-appearance":"Whiz Comics no. 2 (1940)","publisher":"DC
+        Comics","alignment":"good"},"appearance":{"gender":"Male","race":"Human","height":["6''4","193
+        cm"],"weight":["225 lb","101 kg"],"eye-color":"Blue","hair-color":"Black"},"work":{"occupation":"-","base":"-"},"connections":{"group-affiliation":"Marvel
+        Family, Justice Society of America","relatives":"C.C. Batson (father, deceased),
+        Marilyn Batson (mother, deceased), Ebenezer Batson (uncle), Mary Batson (Mary
+        Marvel, sister)"},"image":{"url":"https:\/\/www.superherodb.com\/pictures2\/portraits\/10\/100\/278.jpg"}},{"id":"157","name":"Captain
+        Marvel","powerstats":{"intelligence":"84","strength":"88","speed":"71","durability":"95","power":"100","combat":"90"},"biography":{"full-name":"Carol
+        Danvers","alter-egos":"Binary, Warbird","aliases":["Ace","Binary","Lady Marvel","Warbird","others
+        used during her espionage career"],"place-of-birth":"Boston, Massachusetts","first-appearance":"Ms.
+        Marvel #1","publisher":"Binary","alignment":"good"},"appearance":{"gender":"Female","race":"Human-Kree","height":["5''11","180
+        cm"],"weight":["165 lb","74 kg"],"eye-color":"Blue","hair-color":"Blond"},"work":{"occupation":"Former
+        National Aeronautics and Space Administration security Chief, former magazine
+        editor, former freelance writer, former military intelligence officer.","base":"Avengers
+        Mansion"},"connections":{"group-affiliation":"currently Avengers, former companion
+        to the X-Men (as Carol Danvers), former member of the Starjammers (as Binary),
+        Former Avenger (as Ms. Marvel)","relatives":"Marie Danvers (mother), Joseph
+        Danvers, Sr. (father), Joseph Danvers, Jr. (brother), Steve Danvers (brother,
+        deceased), Marcus Immortus (Danvers) (\"son\", deceased)"},"image":{"url":"https:\/\/www.superherodb.com\/pictures2\/portraits\/10\/100\/103.jpg"}},{"id":"158","name":"Captain
+        Marvel II","powerstats":{"intelligence":"75","strength":"81","speed":"27","durability":"90","power":"34","combat":"56"},"biography":{"full-name":"Frederick
+        Christopher Freeman","alter-egos":"No alter egos found.","aliases":["Captain
+        Marvel Jr.","CM3"],"place-of-birth":"-","first-appearance":"Current incarnation:
+        (As Freddy Freeman) The Power of Shazam #3 (May, 1995)","publisher":"DC Comics","alignment":"good"},"appearance":{"gender":"Male","race":"Human","height":["5''9","175
+        cm"],"weight":["165 lb","74 kg"],"eye-color":"Blue","hair-color":"Black"},"work":{"occupation":"Adventurer","base":"Primarily
+        Fawcett City."},"connections":{"group-affiliation":"Marvel Family, formerly
+        Outsiders and Teen Titans.","relatives":"parents, deceased, Jacob Freeman
+        (granfather, deceased), Timothy Karnes (Sabbac, foster brother, deceased)"},"image":{"url":"https:\/\/www.superherodb.com\/pictures2\/portraits\/10\/100\/279.jpg"}}]}'
+  recorded_at: Tue, 29 Sep 2020 06:39:19 GMT
+recorded_with: VCR 6.0.0
