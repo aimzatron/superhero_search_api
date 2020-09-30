@@ -4,7 +4,7 @@ Superhero Search API
 Find out information about your favorite superhero!
 
 
-To run locally:
+Run locally:
 ---------------
 
 - git clone superhero_search_api
@@ -30,7 +30,7 @@ Search for info on a superhero:
 - If no hero exists with that name or nothing is entered, expect to have a 404 be returned.
 - If a hero exists with that name, expect to receive a JSON response with more info on your hero.
 
-To view all searches:
+View all searches:
 ---------------------
 - Navigate to "/searches" and view a json list of searches
 - To view pagination, add the `page` param to the url (e.g. - "/searches?page=1")
