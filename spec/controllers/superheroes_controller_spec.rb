@@ -19,6 +19,7 @@ RSpec.describe SuperheroesController, type: :controller do
     it "returns a 400 with blank criteria" do
       VCR.use_cassette("superhero_bad_name_api_controller_spec") do
         get :search, params: { name: "" }
+        puts response.body
         expect(response).to have_http_status(:bad_request)
       end
     end
