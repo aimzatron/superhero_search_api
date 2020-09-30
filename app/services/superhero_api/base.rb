@@ -1,3 +1,5 @@
+require_relative "../../../lib/superhero_api/request.rb"
+
 module SuperheroApi
   class Base
     attr_accessor :errors,
@@ -13,7 +15,7 @@ module SuperheroApi
 
     def self.find(name)
       response = Request.get("#{name}")
-      SuperheroApi.new(response)
+      SuperheroApi::Base.new(response)
     end
   end
 end

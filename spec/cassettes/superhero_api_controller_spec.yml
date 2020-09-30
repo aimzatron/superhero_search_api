@@ -1,0 +1,144 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://superheroapi.com/api/192450955735533/search/superman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Content-Encoding:
+      - gzip
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Wed, 30 Sep 2020 04:06:23 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d10d389769f9081b948cd74eca7d07ea71601438782; expires=Fri, 30-Oct-20
+        04:06:22 GMT; path=/; domain=.superheroapi.com; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, max-age=0
+      Location:
+      - https://www.superheroapi.com/api.php/192450955735533/search/superman
+      X-Turbo-Charged-By:
+      - LiteSpeed
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - 057ec9ade50000fecad4837200000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=162&lkg-time=1601438783"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5dab12296b62feca-IAH
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head>\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" >\n<title>
+        302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal
+        14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div
+        style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center;
+        width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n
+        \       <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2
+        style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document
+        has been temporarily moved.</p>\n</div></div></body></html>\n"
+  recorded_at: Wed, 30 Sep 2020 04:06:23 GMT
+- request:
+    method: get
+    uri: https://www.superheroapi.com/api.php/192450955735533/search/superman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Content-Encoding:
+      - gzip
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 30 Sep 2020 04:06:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3400a27135988e6c4d351b612a85e2f41601438783; expires=Fri, 30-Oct-20
+        04:06:23 GMT; path=/; domain=.superheroapi.com; HttpOnly; SameSite=Lax
+      X-Powered-By:
+      - PHP/7.2.32
+      X-Turbo-Charged-By:
+      - LiteSpeed
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - 057ec9af7c0000feb2f8ae1200000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=162&lkg-time=1601438784"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5dab122bf86afeb2-IAH
+    body:
+      encoding: ASCII-8BIT
+      string: '{"response":"success","results-for":"superman","results":[{"id":"195","name":"Cyborg
+        Superman","powerstats":{"intelligence":"75","strength":"93","speed":"92","durability":"100","power":"100","combat":"80"},"biography":{"full-name":"Henry
+        Henshaw","alter-egos":"No alter egos found.","aliases":["Grandmaster of the
+        Manhunters","Herald of the Anti-Monitor","Alpha-Prime of the Alpha Lanterns"],"place-of-birth":"-","first-appearance":"Adventures
+        of Superman #466 (May, 1990)","publisher":"DC Comics","alignment":"bad"},"appearance":{"gender":"Male","race":"Cyborg","height":["-","0
+        cm"],"weight":["- lb","0 kg"],"eye-color":"Blue","hair-color":"Black"},"work":{"occupation":"-","base":"Warworld,
+        Qward, Antimatter Universe, formerly Biot, Sector 3601"},"connections":{"group-affiliation":"Alpha
+        Lantern Corps, Manhunters, Warworld, formerly Apokolips and Sinestro Corps","relatives":"Terri
+        Henshaw (wife, deceased)"},"image":{"url":"https:\/\/www.superherodb.com\/pictures2\/portraits\/10\/100\/667.jpg"}},{"id":"644","name":"Superman","powerstats":{"intelligence":"94","strength":"100","speed":"100","durability":"100","power":"100","combat":"85"},"biography":{"full-name":"Clark
+        Kent","alter-egos":"Superman Prime One-Million","aliases":["Clark Joseph Kent","The
+        Man of Steel","the Man of Tomorrow","the Last Son of Krypton","Big Blue","the
+        Metropolis Marvel","the Action Ace"],"place-of-birth":"Krypton","first-appearance":"ACTION
+        COMICS #1","publisher":"Superman Prime One-Million","alignment":"good"},"appearance":{"gender":"Male","race":"Kryptonian","height":["6''3","191
+        cm"],"weight":["225 lb","101 kg"],"eye-color":"Blue","hair-color":"Black"},"work":{"occupation":"Reporter
+        for the Daily Planet and novelist","base":"Metropolis"},"connections":{"group-affiliation":"Justice
+        League of America, The Legion of Super-Heroes (pre-Crisis as Superboy); Justice
+        Society of America (pre-Crisis Earth-2 version); All-Star Squadron (pre-Crisis
+        Earth-2 version)","relatives":"Lois Lane (wife), Jor-El (father, deceased),
+        Lara (mother, deceased), Jonathan Kent (adoptive father), Martha Kent (adoptive
+        mother), Seyg-El (paternal grandfather, deceased), Zor-El (uncle, deceased),
+        Alura (aunt, deceased), Supergirl (Kara Zor-El, cousin), Superboy (Kon-El\/Conner
+        Kent, partial clone)"},"image":{"url":"https:\/\/www.superherodb.com\/pictures2\/portraits\/10\/100\/791.jpg"}}]}'
+  recorded_at: Wed, 30 Sep 2020 04:06:23 GMT
+recorded_with: VCR 6.0.0

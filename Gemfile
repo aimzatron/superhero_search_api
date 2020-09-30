@@ -12,6 +12,10 @@ gem 'faraday'
 gem 'faraday_middleware'
 gem 'pg'
 gem 'yard'
+gem 'will_paginate', '~> 3.1.0'
+gem 'api-pagination'
+gem 'active_model_serializers'
+gem 'rubocop'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
