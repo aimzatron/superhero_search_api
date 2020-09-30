@@ -15,9 +15,14 @@ To run locally:
 - create a .env file
 - add SuperHero API key as `SUPERHERO_TOKEN` to `.env`
 
-To run specs:
+Run specs:
 -------------
 - run `rspec spec`
+
+Access via Heroku:
+------------------
+[Superhero Search API on Heroku](https://afritz-superhero-api.herokuapp.com/)
+FYI, the root page is the `searches#index` page.
 
 Search for info on a superhero:
 ----------------------------------
